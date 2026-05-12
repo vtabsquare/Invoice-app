@@ -13,7 +13,7 @@ echo "This script will deploy the app without conflicting with existing applicat
 APP_NAME="vtab-invoice"
 APP_DIR="/var/www/$APP_NAME"
 SERVICE_NAME="$APP_NAME"
-BACKEND_PORT=5001
+BACKEND_PORT=5002
 DOMAIN_OR_IP="your_domain_or_ip"  # CHANGE THIS
 
 # Colors for output
