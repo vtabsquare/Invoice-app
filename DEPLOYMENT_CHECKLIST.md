@@ -26,7 +26,7 @@ ssh root@your_droplet_ip
 ### 2. Download and run the deployment script
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/vtabsquare/VtabInvoiceapp/master/digitalocean-deploy.sh
+wget https://raw.githubusercontent.com/vtabsquare/Invoice-app/master/digitalocean-deploy.sh
 
 # Make it executable
 chmod +x digitalocean-deploy.sh

@@ -85,7 +85,7 @@ if [ -d "$APP_DIR/.git" ]; then
     print_warning "Repository already exists, pulling latest changes..."
     git pull origin master
 else
-    git clone https://github.com/vtabsquare/VtabInvoiceapp.git .
+    git clone https://github.com/vtabsquare/Invoice-app.git .
 fi
 
 # Install dependencies
