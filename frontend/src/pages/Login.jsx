@@ -125,6 +125,8 @@ const Login = () => {
                     <p style={{ color: '#64748b', margin: '0.5rem 0 0 0', fontWeight: 500, fontSize: '1rem' }}>Invoice Management System</p>
                 </div>
 
+                <a href="https://www.vtabsquare.com/?demo=1&product=invoice-management&source=vtab-invoice-app" target="_blank" rel="noopener noreferrer" style={{display:'block',textAlign:'center',padding:'0.85rem 1rem',marginBottom:'1.5rem',borderRadius:'0.75rem',background:'#2563eb',color:'#fff',fontWeight:700,textDecoration:'none'}}>Contact for Demo ↗</a>
+
                 {/* Alerts */}
                 {error && (
                     <div style={{
