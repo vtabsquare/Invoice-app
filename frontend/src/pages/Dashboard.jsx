@@ -157,6 +157,8 @@ const Dashboard = () => {
                             Comprehensive filtered overview and dynamic calculations.
                         </p>
                     </div>
+                    <div style={{display:'flex',alignItems:'center',gap:'1rem',flexWrap:'wrap'}}>
+                    <a href="https://www.vtabsquare.com/?demo=1&product=invoice-management&source=vtab-invoice-app" target="_blank" rel="noopener noreferrer" style={{padding:'0.65rem 1rem',borderRadius:'0.65rem',background:'#2563eb',color:'#fff',fontWeight:700,textDecoration:'none',fontSize:'0.875rem'}}>Contact for Demo ↗</a>
                     <div style={{
                         background: '#eff6ff', color: '#2563eb',
                         padding: '0.5rem 1rem', borderRadius: '2rem',
@@ -164,6 +166,7 @@ const Dashboard = () => {
                         border: '1px solid #bfdbfe'
                     }}>
                         {new Date().toLocaleDateString('en-IN', { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' })}
+                    </div>
                     </div>
                 </header>
 
